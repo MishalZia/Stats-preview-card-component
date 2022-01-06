@@ -1,0 +1,46 @@
+@media (max-width: 24.5em) {
+  html {
+    font-size: 43.75%;
+  }
+
+  body {
+    max-width: 144rem;
+    /* min-height: 100vh; */
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr;
+  }
+
+  .section-stats-card {
+    max-width: 80%;
+    text-align: center;
+  }
+
+  .primary-heading {
+    font-size: 3.2rem;
+  }
+
+  .stats-card-text {
+    font-size: 1.8rem;
+    line-height: 1.8;
+    padding: 0;
+  }
+
+  .stats-area {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+    align-items: center;
+  }
+
+  .area {
+    align-items: center;
+  }
+
+  .stats-card-hero-img:nth-child(2) {
+    grid-row: 1;
+  }
+}
